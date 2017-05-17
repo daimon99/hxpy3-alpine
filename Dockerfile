@@ -23,3 +23,5 @@ RUN echo '' > /etc/apk/repositories && \
 
 RUN echo 'alias ll="ls -al"' >> ~/.bashrc && echo >> ~/.bashrc
 
+ADD pip.conf /etc/pip.conf
+
